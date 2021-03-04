@@ -1,4 +1,6 @@
 import React from "react"
+import IMG_3093 from "../assets/IMG_3093.jpg"
+import "./pages.css"
 function About() {
     return (
         <main className="container">
@@ -10,9 +12,9 @@ function About() {
                         </h1>
                         <hr className="my-4" />
                         <div className="row">
-                            <div className="col-12">
-                                <img src="../assets/IMG_3093.jpg"
-                                className="img-responsive" alt="Rex Flores" />
+                            <div id="about-img" className="col-12">
+                                <img src={IMG_3093}
+                                className="img-responsive" alt="Rex Flores" style={{height: "300px", width:"300px"}} />
                                 <p>
                                 Hi, my name is Rex Flores and welcome to my portfolio! This site is a collection of my early work in web design. As a film school graduate and former educator, my goal in web development is to create informative and entertaining content with simple, but memorable user experience. 
                                 </p>

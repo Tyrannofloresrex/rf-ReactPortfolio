@@ -13,7 +13,7 @@ function Card() {
                         Gallery
                         </h1>
                     <hr class="my-4" />
-                    <div class="row">
+                    <div id="card-box" class="row">
                         <SoundSchnob />
                         <PokeBattleEx />
                         <Despensa/>
